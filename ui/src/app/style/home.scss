@@ -1,3 +1,11 @@
 .header {
     font-size: 120px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+@media screen and (max-width: 845px) {
+    .header {
+        font-size: 50px;
+        word-wrap: wrap;
+    }
 }
