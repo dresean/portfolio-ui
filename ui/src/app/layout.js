@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "DreSean Williams",
+  title: "Dre'Sean",
   description: "Created with love with React.js",
 };
 
