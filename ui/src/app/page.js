@@ -1,8 +1,5 @@
 
 "use client"
-// import Avatar from "./components/avatar";
-import dreavi from "../../public/dreavi.jpg"
-import MyButton from "./components/practice"
 import "./style/home.scss"
 
 import * as motion from "motion/react-client"
