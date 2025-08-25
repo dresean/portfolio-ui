@@ -13,32 +13,38 @@ const geistMono = Geist_Mono({
 
 const vibes = Vibes({
  subsets: ['latin'],
-  weight: ['400']
+  weight: ['400'],
+  variable: "--font-vibes",
 })
 
 const fleurDeLeah = Fleur_De_Leah({
  subsets: ['latin'],
-  weight: ['400']
+  weight: ['400'],
+  variable: "--font-fleur-de-leah",
 })
 
 const majorMonoDisplay = Major_Mono_Display({
  subsets: ['latin'],
-  weight: ['400']
+  weight: ['400'],
+  variable: "--font-major-mono-display",
 })
 
 const dorsa = Dorsa({
  subsets: ['latin'],
-  weight: ['400']
+  weight: ['400'],
+  variable: "--font-dorsa",
 })
 
 const miniver = Miniver({
  subsets: ['latin'],
-  weight: ['400']
+  weight: ['400'],
+  variable: "--font-miniver",
 })
 
 const antonSC = Anton_SC({
   subsets: ['latin'],
-  weight: ['400']
+  weight: ['400'],
+  variable: "--font-anton-sc",
 })
 
 export const metadata = {
@@ -50,7 +56,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={miniver.className}
+        className={`${miniver.variable} font-sans`}
         // todo remove && add default font! oh the choices!
       >
         {children}
